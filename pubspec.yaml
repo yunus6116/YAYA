@@ -31,6 +31,7 @@ dependencies:
   pedantic: ^1.9.2
   firebase_auth: ^0.20.0+1
   firebase_core:
+  convex_bottom_bar:
 
 dev_dependencies:
   flutter_test:
