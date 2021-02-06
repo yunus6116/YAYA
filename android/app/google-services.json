@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1028343882056",
+    "project_id": "yaya-flutterhackathon2021",
+    "storage_bucket": "yaya-flutterhackathon2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028343882056:android:93c1730fe375b42be9937d",
+        "android_client_info": {
+          "package_name": "com.example.educationhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028343882056-6n64rekrf9rvq6d391nthl9rrld3q90u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaManTSL1ULOSkPgyUhIFeAOcidChGg5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028343882056-6n64rekrf9rvq6d391nthl9rrld3q90u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
