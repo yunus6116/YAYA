@@ -1,3 +1,4 @@
+import 'package:educationhelper/screens/homepage/my_homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import './deneme.dart';
@@ -228,7 +229,7 @@ class _registerPageState extends State<registerPage> {
         .then((user) {
       Navigator.pushAndRemoveUntil(
           context,
-          MaterialPageRoute(builder: (_) => Deneme()),
+          MaterialPageRoute(builder: (_) => MyHomePage()),
           (Route<dynamic> route) => false);
     });
   }
