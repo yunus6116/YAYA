@@ -100,7 +100,6 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       ),
                       FlatButton(
                         onPressed: () {
-                          print('this is slideIndex: $slideIndex');
                           _controller.animateToPage(slideIndex + 1,
                               duration: Duration(milliseconds: 500),
                               curve: Curves.linear);
@@ -127,7 +126,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   },
                   child: Container(
                     height: Platform.isIOS ? 70 : 60,
-                    color: Colors.blue,
+                    color: Colors.lightBlue,
                     alignment: Alignment.center,
                     child: Text(
                       'Şimdi Başla',
