@@ -24,12 +24,19 @@ class _HomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text('Ana Sayfa'),
-      // ),
+      appBar: AppBar(
+        title: Text(
+          'YAYA',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 22,
+          ),
+        ),
+        centerTitle: true,
+      ),
       body: _pageOptions[selectedPage],
       bottomNavigationBar: ConvexAppBar(
-        //style: TabStyle.react,
+        style: TabStyle.reactCircle,
         items: [
           TabItem(icon: Icons.list),
           TabItem(icon: Icons.support_agent),
@@ -37,7 +44,7 @@ class _HomePageState extends State<MyHomePage> {
           TabItem(icon: Icons.attach_money_sharp),
           TabItem(icon: Icons.account_circle_sharp),
         ],
-        initialActiveIndex: 2 /*optional*/,
+        initialActiveIndex: 2,
         onTap: (int index) {
           setState(() {
             selectedPage = index;

@@ -1,11 +1,23 @@
+import 'package:educationhelper/screens/homepage/view/explanation.dart';
+import 'package:educationhelper/screens/homepage/view/information_container.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('Ana Sayfa'),
+      body: Padding(
+        padding: const EdgeInsets.all(15.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            informationContainer(),
+            SizedBox(
+              height: 20,
+            ),
+            explanationContainer(context),
+          ],
+        ),
       ),
     );
   }
