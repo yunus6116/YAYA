@@ -33,7 +33,8 @@ class Ihbar extends StatelessWidget {
             height: 20,
           ),
           Container(
-            height: 460,
+            // height: 460,
+            height: MediaQuery.of(context).size.height * 0.7,
             child: SingleChildScrollView(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
