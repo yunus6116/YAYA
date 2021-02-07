@@ -31,7 +31,7 @@ class SlideTile extends StatelessWidget {
             style: TextStyle(
                 fontWeight: FontWeight.w700,
                 fontSize: 18,
-                color: Colors.blueAccent),
+                color: Colors.lightBlue),
           )
         ],
       ),
