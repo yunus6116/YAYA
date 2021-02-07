@@ -43,7 +43,6 @@ Widget informationContainer() {
             'Bu ay yapılan toplam ihbar sayısı:',
             style: TextStyle(
               fontSize: 20,
-              //fontWeight: FontWeight.bold,
             ),
           ),
         ),
@@ -63,7 +62,6 @@ Widget informationContainer() {
             'Bu ay kurtarılan çocuk işçi sayısı:',
             style: TextStyle(
               fontSize: 20,
-              //fontWeight: FontWeight.bold,
             ),
           ),
         ),
@@ -76,6 +74,5 @@ Widget informationContainer() {
         ),
       ],
     ),
-    //elevation: 20,
   );
 }
