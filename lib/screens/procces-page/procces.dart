@@ -37,7 +37,8 @@ class Procces extends StatelessWidget {
             height: 20,
           ),
           Container(
-            height: 440,
+            // height: 440,
+          height: MediaQuery.of(context).size.height * 0.67,
             child: ListView.builder(
               itemCount: 10,
               itemBuilder: (BuildContext context, int index) {
