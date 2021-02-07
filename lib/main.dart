@@ -1,3 +1,4 @@
+import 'package:educationhelper/screens/onBoarding/onboarding.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'screens/register/register.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.lightBlue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: registerPage(),
+      home: OnBoardingScreen(),
     );
   }
 }

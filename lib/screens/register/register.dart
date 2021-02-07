@@ -55,11 +55,11 @@ class _registerPageState extends State<registerPage> {
                   Align(
                     child: Padding(
                       padding: const EdgeInsets.only(
-                        right: 225,
+                        right: 250,
                       ),
                       child: Container(
                         child: Text(
-                          'Username',
+                          'E-mail',
                           style: TextStyle(
                             color: Colors.grey,
                             fontSize: 15,
