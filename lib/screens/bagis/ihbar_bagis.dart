@@ -67,7 +67,7 @@ class _IhbarBagisState extends State<IhbarBagis> {
                   ),
                   width: 350,
                   child: CheckboxListTile(
-                    title: const Text('Yunus (Kyksı yatmamış)'),
+                    title: const Text('Yunus (Temel İhtiyaçlar)'),
                     value: timeDilation != 2.0,
                     onChanged: (bool value) {
                       setState(() {
@@ -75,7 +75,7 @@ class _IhbarBagisState extends State<IhbarBagis> {
                       });
                     },
                     secondary: Text(
-                      '25₺',
+                      '300₺',
                       style: TextStyle(
                         color: Colors.grey[700],
                         fontSize: 20,
@@ -93,7 +93,7 @@ class _IhbarBagisState extends State<IhbarBagis> {
                   ),
                   width: 350,
                   child: CheckboxListTile(
-                    title: const Text('Aziz (Kyksı yatmamış)'),
+                    title: const Text('Aziz (Kalıcak Ev)'),
                     value: timeDilation != 2.0,
                     onChanged: (bool value) {
                       setState(() {
@@ -101,7 +101,7 @@ class _IhbarBagisState extends State<IhbarBagis> {
                       });
                     },
                     secondary: Text(
-                      '25₺',
+                      '100₺',
                       style: TextStyle(
                         color: Colors.grey[700],
                         fontSize: 20,
@@ -127,7 +127,7 @@ class _IhbarBagisState extends State<IhbarBagis> {
                       });
                     },
                     secondary: Text(
-                      '25₺',
+                      '500₺',
                       style: TextStyle(
                         color: Colors.grey[700],
                         fontSize: 20,
@@ -145,7 +145,7 @@ class _IhbarBagisState extends State<IhbarBagis> {
                   ),
                   width: 350,
                   child: CheckboxListTile(
-                    title: const Text('Ahmet (Kyksı yatmamış)'),
+                    title: const Text('Ahmet (Okul İhtiyacı)'),
                     value: timeDilation != 2.0,
                     onChanged: (bool value) {
                       setState(() {
@@ -153,7 +153,7 @@ class _IhbarBagisState extends State<IhbarBagis> {
                       });
                     },
                     secondary: Text(
-                      '25₺',
+                      '150',
                       style: TextStyle(
                         color: Colors.grey[700],
                         fontSize: 20,

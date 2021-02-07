@@ -67,7 +67,7 @@ class _OkulBagisState extends State<OkulBagis> {
                   ),
                   width: 350,
                   child: CheckboxListTile(
-                    title: const Text('Yunus (Kyksı yatmamış)'),
+                    title: const Text('Kocatepe ilköğretim (Kütüphane)'),
                     value: timeDilation != 2.0,
                     onChanged: (bool value) {
                       setState(() {
@@ -75,7 +75,7 @@ class _OkulBagisState extends State<OkulBagis> {
                       });
                     },
                     secondary: Text(
-                      '25₺',
+                      '200₺',
                       style: TextStyle(
                         color: Colors.grey[700],
                         fontSize: 20,
@@ -93,7 +93,8 @@ class _OkulBagisState extends State<OkulBagis> {
                   ),
                   width: 350,
                   child: CheckboxListTile(
-                    title: const Text('Aziz (Kyksı yatmamış)'),
+                    title: const Text(
+                        'Atatürk ilköğretim (Sıra ve masa eksikliği)'),
                     value: timeDilation != 2.0,
                     onChanged: (bool value) {
                       setState(() {
@@ -101,7 +102,7 @@ class _OkulBagisState extends State<OkulBagis> {
                       });
                     },
                     secondary: Text(
-                      '25₺',
+                      '350₺',
                       style: TextStyle(
                         color: Colors.grey[700],
                         fontSize: 20,
@@ -119,7 +120,7 @@ class _OkulBagisState extends State<OkulBagis> {
                   ),
                   width: 350,
                   child: CheckboxListTile(
-                    title: const Text('Yüsra (Kyksı yatmamış)'),
+                    title: const Text('Kültür ortaokulu (Isınma Masrafları)'),
                     value: timeDilation != 2.0,
                     onChanged: (bool value) {
                       setState(() {
@@ -127,7 +128,7 @@ class _OkulBagisState extends State<OkulBagis> {
                       });
                     },
                     secondary: Text(
-                      '25₺',
+                      '1000₺',
                       style: TextStyle(
                         color: Colors.grey[700],
                         fontSize: 20,
@@ -145,7 +146,8 @@ class _OkulBagisState extends State<OkulBagis> {
                   ),
                   width: 350,
                   child: CheckboxListTile(
-                    title: const Text('Ahmet (Kyksı yatmamış)'),
+                    title:
+                        const Text('Final İlköğretim (Spor Salonu ihtiyacı)'),
                     value: timeDilation != 2.0,
                     onChanged: (bool value) {
                       setState(() {
@@ -153,7 +155,7 @@ class _OkulBagisState extends State<OkulBagis> {
                       });
                     },
                     secondary: Text(
-                      '25₺',
+                      '1500₺',
                       style: TextStyle(
                         color: Colors.grey[700],
                         fontSize: 20,
