@@ -20,7 +20,7 @@ Widget explanationContainer(BuildContext context) {
           ),
         ),
         SizedBox(
-          height: 5,
+          height: 15,
         ),
         Text(
           'Çocukların çalıştırılmasının en sık rastlanan nedeni maddi sıkıntılar. ',
@@ -37,7 +37,7 @@ Widget explanationContainer(BuildContext context) {
           ),
         ),
         SizedBox(
-          height: 5,
+          height: 15,
         ),
         Text(
           'Sen de buna sessiz kalmak istemiyorsan bir kaç dokunuş ile çocukların eğitimine ve dünyanın olumlu yöndeki değişimlerine yön verebilirsin. ',

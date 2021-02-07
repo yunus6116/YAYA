@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:educationhelper/screens/homepage/view/explanation.dart';
 import 'package:educationhelper/screens/homepage/view/information_container.dart';
 import 'package:flutter/material.dart';
@@ -11,7 +13,37 @@ class HomePage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+            Padding(
+              padding: const EdgeInsets.only(
+                right: 260,
+              ),
+              child: Text(
+                'Yayada bu ay',
+                style: TextStyle(
+                  color: Colors.blue,
+                  fontSize: 20,
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 10,
+            ),
             informationContainer(),
+            SizedBox(
+              height: 20,
+            ),
+            Padding(
+              padding: const EdgeInsets.only(
+                right: 270,
+              ),
+              child: Text(
+                'Yaya nedir ?',
+                style: TextStyle(
+                  color: Colors.blue,
+                  fontSize: 20,
+                ),
+              ),
+            ),
             SizedBox(
               height: 20,
             ),
