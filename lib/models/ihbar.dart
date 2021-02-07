@@ -1,4 +1,7 @@
 class Ihbar {
-  String type;
-  Ihbar({this.type});
+  String ad;
+  String soyad;
+  String konu;
+  String adres;
+  Ihbar({this.ad, this.soyad, this.konu, this.adres});
 }

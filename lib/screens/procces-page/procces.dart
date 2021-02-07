@@ -1,7 +1,46 @@
+import 'package:educationhelper/models/ihbar.dart';
 import 'package:educationhelper/screens/bagis/bagis.dart';
 import 'package:flutter/material.dart';
 
 class Procces extends StatelessWidget {
+  List ihbarlar = [
+    Ihbar(
+      ad: 'Ali',
+      soyad: 'Kaya',
+      adres: 'Avcılar/İstanbul',
+      konu: 'Mendil Satıyor.',
+    ),
+    Ihbar(
+      ad: 'Kocatepe İlköğretim Okulu',
+      soyad: 'Okulu',
+      adres: 'Kızılay/Ankara',
+      konu: 'Kütüphane yok.',
+    ),
+    Ihbar(
+      ad: 'Ahmet',
+      soyad: 'Arslan',
+      adres: 'Esenyurt/İstanbul',
+      konu: 'Balon Satıyor.',
+    ),
+    Ihbar(
+      ad: 'Pelin',
+      soyad: 'Kartal',
+      adres: 'Kordon/İzmir',
+      konu: 'Mendil Satıyor.',
+    ),
+    Ihbar(
+      ad: 'Aslı',
+      soyad: 'Aksu',
+      adres: 'İnegöl/Bursa',
+      konu: 'Anne babası yok ve sokakta kalıyor.',
+    ),
+    Ihbar(
+      ad: 'Kocatepe İlköğretim Okulu',
+      soyad: 'Okulu',
+      adres: 'Kızılay/Ankara',
+      konu: 'Kütüphane yok.',
+    ),
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,7 +76,7 @@ class Procces extends StatelessWidget {
             // height: 440,
             height: MediaQuery.of(context).size.height * 0.67,
             child: ListView.builder(
-              itemCount: 10,
+              itemCount: ihbarlar.length,
               itemBuilder: (BuildContext context, int index) {
                 return Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -74,7 +113,7 @@ class Procces extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Ahmet Kütük',
+                                      '${ihbarlar[index].ad} ${ihbarlar[index].soyad}',
                                       style: TextStyle(
                                           fontSize: 17.0,
                                           fontWeight: FontWeight.bold),
@@ -83,7 +122,7 @@ class Procces extends StatelessWidget {
                                       height: 5.0,
                                     ),
                                     Text(
-                                      'Çocuk Kodcu',
+                                      '${ihbarlar[index].konu}',
                                       style: TextStyle(color: Colors.grey),
                                     ),
                                     SizedBox(
@@ -94,7 +133,7 @@ class Procces extends StatelessWidget {
                                       style: TextStyle(color: Colors.grey),
                                     ),
                                   ],
-                                )
+                                ),
                               ],
                             ),
                             Container(

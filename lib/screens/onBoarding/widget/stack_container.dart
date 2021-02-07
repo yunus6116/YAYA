@@ -3,7 +3,6 @@ import 'package:educationhelper/screens/onBoarding/widget/tab_bar.dart';
 import 'package:educationhelper/utils/customer_clipper.dart';
 import 'package:flutter/material.dart';
 
-
 class StackContainer extends StatelessWidget {
   const StackContainer({
     Key key,
@@ -22,7 +21,7 @@ class StackContainer extends StatelessWidget {
               height: 300.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  fit:  BoxFit.cover,
+                  fit: BoxFit.cover,
                   image: AssetImage('assets/images/profile.jpg'),
                 ),
               ),
@@ -33,10 +32,13 @@ class StackContainer extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
-                CircularProfileAvatar(
-                  'https://www.w3schools.com/w3css/img_avatar3.png' ,
-                  borderWidth: 4.0,
-                  radius: 60.0,
+                SizedBox(
+                  height: 100,
+                  width: 100,
+                  child: ClipOval(
+                    clipBehavior: Clip.antiAliasWithSaveLayer,
+                    child: Image.asset('assets/images/profil.png'),
+                  ),
                 ),
                 SizedBox(height: 4.0),
                 Text(
