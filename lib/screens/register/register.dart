@@ -1,7 +1,6 @@
 import 'package:educationhelper/screens/homepage/my_homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import './deneme.dart';
 
 class registerPage extends StatefulWidget {
   @override
@@ -24,7 +23,7 @@ class _registerPageState extends State<registerPage> {
                     child: Container(
                       alignment: Alignment.topRight,
                       child: Image.asset(
-                        'assets/shape.png',
+                        'assets/images/shape.png',
                         width: 170,
                       ),
                     ),
@@ -193,7 +192,7 @@ class _registerPageState extends State<registerPage> {
                               disabledColor: Colors.white,
                               splashColor: Colors.white,
                               onPressed: () {},
-                              child: Image.asset('assets/google.png'),
+                              child: Image.asset('assets/images/google.png'),
                             ),
                           ),
                           Container(
@@ -203,7 +202,7 @@ class _registerPageState extends State<registerPage> {
                               disabledColor: Colors.white,
                               splashColor: Colors.white,
                               onPressed: () {},
-                              child: Image.asset('assets/phoness.png'),
+                              child: Image.asset('assets/images/phoness.png'),
                             ),
                           ),
                         ],
