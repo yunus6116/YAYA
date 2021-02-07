@@ -8,12 +8,12 @@ Bu uygulama ile okuryazarlığı arttırmayı ve çocuk işçiliğinin önüne g
 Sen de buna sessiz kalmak istemiyorsan bir kaç dokunuş ile çocukların eğitimine ve dünyanın olumlu yöndeki 
 değişimlerine yön verebilirsin.
 
-#Uygulama Çalıştırılması:
+##Uygulama Çalıştırılması:
   Uygulamaya login olmak için FirebaseAuth teknolojisi kullanıldı.
   email:yaya@gmail.com
   şifre:147258
 
-#Uygulama Teknolojileri
+##Uygulama Teknolojileri
     CloudStroge ile ihbar verileri tutulmak için kullanılıyor.
     
     
