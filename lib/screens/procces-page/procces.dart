@@ -38,22 +38,83 @@ class Procces extends StatelessWidget {
           ),
           Container(
             height: 440,
-            child: SingleChildScrollView(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Text('İhbar'),
-                  Text('İhbar'),
-                  Text('İhbar'),
-                  Text('İhbar'),
-                  Text('İhbar'),
-                  Text('İhbar'),
-                  Text('İhbar'),
-                  Text('İhbar'),
-                  Text('İhbar'),
-                ],
-              ),
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (BuildContext context, int index) {
+                return Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Card(
+                      elevation: 5.0,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(0.0),
+                      ),
+                      child: Container(
+                        width: MediaQuery.of(context).size.width,
+                        padding: EdgeInsets.symmetric(
+                            horizontal: 10.0, vertical: 10.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Container(
+                                  width: 55.0,
+                                  height: 55.0,
+                                  child: CircleAvatar(
+                                    child: Text('${index + 1}'),
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 10.0,
+                                ),
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      'Ahmet Kütük',
+                                      style: TextStyle(
+                                          fontSize: 17.0,
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                    SizedBox(
+                                      height: 5.0,
+                                    ),
+                                    Text(
+                                      'Çocuk Kodcu',
+                                      style: TextStyle(color: Colors.grey),
+                                    ),
+                                  ],
+                                )
+                              ],
+                            ),
+                            Container(
+                              alignment: Alignment.center,
+                              padding: EdgeInsets.symmetric(
+                                  horizontal: 10.0, vertical: 10.0),
+                              child: FlatButton(
+                                onPressed: () {},
+                                color: Colors.blue,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                ),
+                                child: Text(
+                                  'Bağış Yap',
+                                  style: TextStyle(color: Colors.white),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                );
+              },
             ),
           )
         ],
