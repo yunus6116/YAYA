@@ -1,16 +1,23 @@
-# educationhelper
+# YAYA
 
-A new Flutter project.
+Dünyada çoğunun okul kaydı da bulunmayan 152 milyon çocuk işçi var.
+Çocuk işçiliği, çocukların zihinsel, sosyal, fiziksel ve psikolojik gelişimini olumsuz yönde etkiler ve bu yasal değil.
+Çocukların çalıştırılmasının en sık rastlanan nedeni maddi sıkıntılar. 
+İnsanlar okumayan, okuyamayan ve çalıştırılan çocukları görünce sadece üzülüp geçebilir veya ailesinin maddi durumunu düşünüp polise bildirmekten çekinebilir. 
+Bu uygulama ile okuryazarlığı arttırmayı ve çocuk işçiliğinin önüne geçilmesini hedefliyoruz.
+Sen de buna sessiz kalmak istemiyorsan bir kaç dokunuş ile çocukların eğitimine ve dünyanın olumlu yöndeki 
+değişimlerine yön verebilirsin.
 
-## Getting Started
+## Uygulama Çalıştırılması:
+  Uygulamaya login olmak için FirebaseAuth teknolojisi kullanıldı.
+  email:yaya@gmail.com
+  şifre:147258
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Uygulama Teknolojileri
+    CloudStroge ile ihbar verileri tutulmak için kullanılıyor.
+    
+  ![Cloud](https://cdn.discordapp.com/attachments/807292032288686141/808019089309696010/CloudFirestore.PNG)  
+  ![Cloud](https://cdn.discordapp.com/attachments/807292032288686141/808019985766416404/Authentication.PNG)  
+    
+    
+ 
