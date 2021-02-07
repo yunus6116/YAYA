@@ -11,8 +11,8 @@ class Procces extends StatelessWidget {
       konu: 'Mendil Satıyor.',
     ),
     Ihbar(
-      ad: 'Kocatepe İlköğretim Okulu',
-      soyad: 'Okulu',
+      ad: 'Kocatepe İlköğretim',
+      soyad: '',
       adres: 'Kızılay/Ankara',
       konu: 'Kütüphane yok.',
     ),
@@ -32,11 +32,11 @@ class Procces extends StatelessWidget {
       ad: 'Aslı',
       soyad: 'Aksu',
       adres: 'İnegöl/Bursa',
-      konu: 'Anne babası yok ve sokakta kalıyor.',
+      konu: 'Anne babası yok.',
     ),
     Ihbar(
-      ad: 'Kocatepe İlköğretim Okulu',
-      soyad: 'Okulu',
+      ad: 'Kocatepe İlköğretim',
+      soyad: '',
       adres: 'Kızılay/Ankara',
       konu: 'Kütüphane yok.',
     ),
@@ -141,11 +141,7 @@ class Procces extends StatelessWidget {
                               padding: EdgeInsets.symmetric(
                                   horizontal: 10.0, vertical: 10.0),
                               child: FlatButton(
-                                onPressed: () {
-                                  _yayaDialog();
-
-                                  ;
-                                },
+                                onPressed: () {},
                                 color: Colors.blue,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20.0),
