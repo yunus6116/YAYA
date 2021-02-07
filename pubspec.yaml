@@ -36,6 +36,7 @@ dependencies:
   flutter_screenutil: ^1.0.2
   animated_theme_switcher: ^1.0.5
   circular_profile_avatar: ^1.0.6
+  cloud_firestore: ^0.16.0
 
 dev_dependencies:
   flutter_test:
