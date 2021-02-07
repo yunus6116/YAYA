@@ -29,7 +29,7 @@ class _OkulunIhtiyaciState extends State<OkulunIhtiyaci> {
                   left: 10,
                 ),
                 child: Text(
-                  'Çocukların bir çoğu ailesinin maddi sıkıntıları sebebiyle okuyamıyor. Elinizi uzatarak bu çocukların kendini keşfettiği eğitim yıllarını kurtarabilir ve dünyaya yön verebilirsiniz.',
+                  'Maalesef ki eğitim eşitsizliği okullardaki imkanların farklılıklarından da görülebilir. Sizlerle birlikte bu dengesizliği yok ederek birçok öğrencinin eğitimine destek olabiliriz.',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 15,
