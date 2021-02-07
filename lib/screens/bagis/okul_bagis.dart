@@ -2,12 +2,12 @@ import 'package:educationhelper/screens/bagis/bagis.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 
-class IhbarBagis extends StatefulWidget {
+class OkulBagis extends StatefulWidget {
   @override
-  _IhbarBagisState createState() => _IhbarBagisState();
+  _OkulBagisState createState() => _OkulBagisState();
 }
 
-class _IhbarBagisState extends State<IhbarBagis> {
+class _OkulBagisState extends State<OkulBagis> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -28,11 +28,11 @@ class _IhbarBagisState extends State<IhbarBagis> {
                 ),
                 child: Padding(
                   padding: const EdgeInsets.only(
-                    top: 25,
-                    left: 10,
+                    top: 15,
+                    left: 22,
                   ),
                   child: Text(
-                    'Çocukların bir çoğu ailesinin maddi sıkıntıları sebebiyle okuyamıyor. Elinizi uzatarak bu çocukların kendini keşfettiği eğitim yıllarını kurtarabilir ve dünyaya yön verebilirsiniz.',
+                    'Özellikle köy okullarının bir çoğu maddi yetersizlikler sebebiyle nitelikli eğitim veremiyor. Elinizi uzatarak bu okulları ve çocukların eğitim yıllarını kurtarabilir ve dünyaya yön verebilirsiniz.',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 15,
@@ -53,7 +53,7 @@ class _IhbarBagisState extends State<IhbarBagis> {
                     bottom: 20,
                   ),
                   child: Text(
-                    'İhbar Listesi',
+                    'Okul Listesi',
                     style: TextStyle(
                       color: Colors.blue,
                       fontSize: 22,

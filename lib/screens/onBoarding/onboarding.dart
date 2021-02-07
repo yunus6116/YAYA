@@ -28,7 +28,6 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     mySLides = getSlides();
     _controller = PageController();

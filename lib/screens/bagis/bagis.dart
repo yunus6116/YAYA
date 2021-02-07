@@ -1,4 +1,5 @@
 import 'package:educationhelper/screens/bagis/ihbar_bagis.dart';
+import 'package:educationhelper/screens/bagis/okul_bagis.dart';
 import 'package:flutter/material.dart';
 
 class Bagis extends StatelessWidget {
@@ -63,7 +64,10 @@ class Bagis extends StatelessWidget {
                 height: 50,
               ),
               FlatButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (_) => OkulBagis()));
+                },
                 child: Container(
                   width: 350,
                   height: 120,
