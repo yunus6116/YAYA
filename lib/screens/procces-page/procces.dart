@@ -86,6 +86,13 @@ class Procces extends StatelessWidget {
                                       'Çocuk Kodcu',
                                       style: TextStyle(color: Colors.grey),
                                     ),
+                                    SizedBox(
+                                      height: 5.0,
+                                    ),
+                                    Text(
+                                      '25₺',
+                                      style: TextStyle(color: Colors.grey),
+                                    ),
                                   ],
                                 )
                               ],
@@ -95,7 +102,11 @@ class Procces extends StatelessWidget {
                               padding: EdgeInsets.symmetric(
                                   horizontal: 10.0, vertical: 10.0),
                               child: FlatButton(
-                                onPressed: () {},
+                                onPressed: () {
+                                  _yayaDialog();
+
+                                  ;
+                                },
                                 color: Colors.blue,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20.0),

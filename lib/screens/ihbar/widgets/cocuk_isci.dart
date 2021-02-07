@@ -229,7 +229,9 @@ class _CocukIsciState extends State<CocukIsci> {
                           color: Colors.blue,
                           disabledColor: Colors.white,
                           splashColor: Colors.blueAccent,
-                          onPressed: () {},
+                          onPressed: () {
+                            _yaya2Dialog();
+                          },
                           child: Text(
                             'İhbar Oluştur',
                             style: TextStyle(
@@ -279,6 +281,36 @@ class _CocukIsciState extends State<CocukIsci> {
           ],
         ),
       ),
+    );
+  }
+
+  void _yaya2Dialog() {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+          title: Text('İhbarınız başarıyla oluşturuldu'),
+          content: Text(
+              'Duyarlı olmanın önemli olduğu bu günlerde bir çocuğa umut olduğunuz için teşekkür ederiz.'),
+          actions: <Widget>[
+            Padding(
+              padding: const EdgeInsets.only(right: 10.0),
+              child: MaterialButton(
+                shape: StadiumBorder(),
+                minWidth: 100,
+                color: Colors.blue,
+                child: Text('Tamam'),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
+            ),
+          ],
+        );
+      },
     );
   }
 }

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 Widget explanationContainer(BuildContext context) {
   return Container(
-    height: MediaQuery.of(context).size.height * 0.41,
+    height: MediaQuery.of(context).size.height * 0.33,
     child: ListView(
       children: [
         Text(
