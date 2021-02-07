@@ -10,7 +10,7 @@ class Bagis extends StatelessWidget {
           ClipPath(
             clipper: YayaCliper(),
             child: Container(
-              height: 320,
+              height: 240,
               decoration: BoxDecoration(
                 color: Colors.blue,
               ),
@@ -51,7 +51,7 @@ class Bagis extends StatelessWidget {
                       ),
                     ],
                     image: DecorationImage(
-                      image: AssetImage('assets/den.jpg'),
+                      image: AssetImage('assets/images/den.jpg'),
                       fit: BoxFit.cover,
                     ),
                     color: Colors.blue,
@@ -77,7 +77,7 @@ class Bagis extends StatelessWidget {
                         ),
                       ],
                       image: DecorationImage(
-                        image: AssetImage('assets/sc.jpg'),
+                        image: AssetImage('assets/images/sc.jpg'),
                         fit: BoxFit.cover,
                       ),
                       color: Colors.blue,

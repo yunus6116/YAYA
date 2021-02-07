@@ -24,16 +24,18 @@ class _HomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'YAYA',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 22,
-          ),
-        ),
-        centerTitle: true,
-      ),
+      appBar: selectedPage == 2
+          ? AppBar(
+              title: Text(
+                'YAYA',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 22,
+                ),
+              ),
+              centerTitle: true,
+            )
+          : null,
       body: _pageOptions[selectedPage],
       bottomNavigationBar: ConvexAppBar(
         style: TabStyle.reactCircle,

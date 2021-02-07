@@ -12,12 +12,13 @@ class _IhbarBagisState extends State<IhbarBagis> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        appBar: AppBar(),
         body: Column(
           children: [
             ClipPath(
               clipper: YayaCliper(),
               child: Container(
-                height: 150,
+                height: 135,
                 decoration: BoxDecoration(
                   color: Colors.blue,
                 ),
