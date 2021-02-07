@@ -24,9 +24,9 @@ class _HomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Ana Sayfa'),
-      ),
+      // appBar: AppBar(
+      //   title: Text('Ana Sayfa'),
+      // ),
       body: _pageOptions[selectedPage],
       bottomNavigationBar: ConvexAppBar(
         //style: TabStyle.react,
