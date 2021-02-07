@@ -1,6 +1,6 @@
 
 
-import 'package:educationhelper/routes.dart';
+
 import 'package:educationhelper/wiedget/slide_tile.dart';
 import 'package:flutter/material.dart';
 import 'dart:io';
@@ -112,11 +112,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               ],
             ),
           ): GestureDetector(
-            onTap: (){
-
-              Navigator.of(context).pushNamed(Routes.homepage);
-              
-            },
+            
             child: Container(
               height: Platform.isIOS ? 70 : 60,
               color: Colors.blue,
