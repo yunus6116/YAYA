@@ -15,9 +15,3 @@ değişimlerine yön verebilirsin.
 
 ## Uygulama Teknolojileri
     CloudStroge ile ihbar verileri tutulmak için kullanılıyor.
-    
-  ![Cloud](https://cdn.discordapp.com/attachments/807292032288686141/808019089309696010/CloudFirestore.PNG)  
-  ![Cloud](https://cdn.discordapp.com/attachments/807292032288686141/808019985766416404/Authentication.PNG)  
-    
-    
- 
